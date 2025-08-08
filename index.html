@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>UI Development Basics</title>
+</head>
+
+<body>
+    <nav class="bg-cyan-800 justify-around md:flex text-white">
+        <div class="flex justify-around">
+            <div class="p-5">
+                <div class="text-3xl">XyneroTech</div>
+            </div>
+            <button id="menu-btn" class="md:hidden text-3xl p-5">
+                &#9776;
+            </button>
+        </div>
+        <div id="menu-items" class="hidden md:flex p-5">
+            <div><button class="md:mr-5">Home</button></div>
+            <div><button class="md:mr-5">About</button></div>
+            <div><button class="md:mr-5">Services</button></div>
+            <div><button class="md:mr-5">Contact</button></div>
+        </div>
+    </nav>
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu-items');
+
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
