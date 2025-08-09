@@ -3,7 +3,7 @@ https://wondrous-moxie-33c1ad.netlify.app/
 # Landing Page
 
 ## Project Overview
-This is a static, responsive landing page built with HTML and Tailwind CSS. It includes a sticky header, hero section, features section with three cards, and a footer with social media links. The page is fully responsive for mobile, tablet, and desktop devices, using CSS Grid for layouts. Optional enhancements include hover effects on buttons, navigation links, and feature cards.
+This is a static, responsive landing page built with HTML and Tailwind CSS. It includes a sticky header, hero section, features section with nine cards, and a footer with social media links. The page is fully responsive for mobile, tablet, and desktop devices, using CSS Grid for layouts. Optional enhancements include hover effects on buttons, navigation links, and feature cards.
 
 ## Setup Instructions
 1. Clone the repository: `git clone https://github.com/Tonmoy-Roy/UI-Development-Basics.git`
